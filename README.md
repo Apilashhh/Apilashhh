@@ -1,10 +1,10 @@
 # Hi! 👋
 ![Profile](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)
 
-My name is Apilash Balasureshwaran. I am an aspiring Financial Professional with a deep passion for Finance and Technology.
+My name is Apilash Balasureshwaran, an aspiring Financial Professional with a deep passion for Finance and Technology.
 
 ## About Me
-I am in my final year of a Bachelor's degree in Economics and Management with a specialization in Finance. Beyond academics, I am enthusiastic about finance, coding, sports, gaming, self-improvement books, and art. This GitHub repository serves as a reflection of the diverse projects I undertake and my wide-ranging interests. It's a platform where I share my passions, document my academic and extracurricular journey, and aim to inspire others. Join me on this journey as I explore academia, hobbies, and personal growth. 📚💻⚽🎨 #FinancePassion #CodingEnthusiast #SportsLover #SelfImprovement #ArtAppreciation
+I am in my final year of a Bachelor's degree in Economics and Management with a specialization in Finance. I have a profound interest in finance, coding, sports, gaming, self-improvement books, and art. This GitHub repository reflects the diverse projects I undertake, showcasing my varied interests. It's a platform for sharing passions, narrating my academic and extracurricular journey, and potentially inspiring others. Join me on this adventure exploring academia, hobbies, and personal growth. 📚💻⚽🎨 #FinancePassion #CodingEnthusiast #SportsLover #SelfImprovement #ArtAppreciation
 
 ## Contact Information
 - 🌍 Based in Paris
