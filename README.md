@@ -25,7 +25,7 @@ I am in my final year of a Bachelor's degree in Economics and Management with a 
     </a>
 </p>
 
-## Socials
+### Socials
 <p align="left">
     <a href="https://www.github.com/Apilashhh" target="_blank" rel="noreferrer">
         <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" />
@@ -33,8 +33,8 @@ I am in my final year of a Bachelor's degree in Economics and Management with a 
     <!-- Add other social media links here -->
 </p>
 
-## Badges
-### My GitHub Stats
+### Badges
+<b>My GitHub Stats</b>
 <a href="http://www.github.com/Apilashhh">
     <img src="https://github-readme-stats.vercel.app/api?username=Apilashhh&show_icons=true&hide=issues,&title_color=6366f1&text_color=ffffff&icon_color=6366f1&bg_color=000000&hide_border=true&show_icons=true" alt="Apilashhh's GitHub stats" />
 </a>
