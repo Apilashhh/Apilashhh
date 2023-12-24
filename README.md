@@ -1,4 +1,7 @@
-# Hi! 👋! ![Finance Bros ! ](https://www.wattpad.com/951465524-father%27s-day-%E2%9E%B3-beomryu-%E2%9C%93-eleven)
+# Hi! 👋! 
+
+<img align="right" alt="Finance Bros" width="400" src=https://images.squarespace-cdn.com/content/v1/5c4ece0e3917ee277d32eaf3/1570273144470-81IYS54BBS2A2309YBY5/nightlife.gif?format=750w">
+
 
 
 
