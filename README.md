@@ -1,6 +1,6 @@
 # Hi! 👋! ![nightlife](https://github.com/Apilashhh/Apilashhh/assets/154760968/82093120-8f7c-4cdf-9c61-e21d97541953)
 
-![Profile]([https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUPCoMSmpfMcNWowu1253xIWv0lcvjY7Q1Arl8msbUIWlcYZO7))
+![Profile](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)
 
 My name is Apilash Balasureshwaran, an aspiring Financial Professional with a deep passion for Finance and Technology.
 
