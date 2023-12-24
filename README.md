@@ -1,4 +1,5 @@
-# Hi! 👋! [Finance Bros !]([https://media.giphy.com/media/7kn27lnYSAE9O/giphy.gif](https://images.squarespace-cdn.com/content/v1/5c4ece0e3917ee277d32eaf3/1570273144470-81IYS54BBS2A2309YBY5/nightlife.gif?format=750w))
+# Hi! 👋! ![Finance Bros ! ](https://www.wattpad.com/951465524-father%27s-day-%E2%9E%B3-beomryu-%E2%9C%93-eleven)
+
 
 
 ![Profile]([https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUPCoMSmpfMcNWowu1253xIWv0lcvjY7Q1Arl8msbUIWlcYZO7))
