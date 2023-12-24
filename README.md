@@ -3,6 +3,8 @@
 
 Hi Everyone ! 👋 
 My name is _Apilash Balasureshwaran_, an aspiring Financial Professional with a deep passion for Finance and Technology.
+[![ApilashTV YouTube Channel](https://img.shields.io/youtube/channel/subscribers/ApilashTV)](https://www.youtube.com/channel/UC0aH6rIScjgXmwlHts4nYAQ)
+
 
 ## About Me
 I am in my final year of a Bachelor's degree in Economics and Management with a specialization in Finance. I have a profound interest in finance, coding, sports, gaming, self-improvement books, and art. This GitHub repository reflects the diverse projects I undertake, showcasing my varied interests. It's a platform for sharing passions, narrating my academic and extracurricular journey, and potentially inspiring others. Join me on this adventure exploring academia, hobbies, and personal growth. 📚💻⚽🎨 #FinancePassion #CodingEnthusiast #SportsLover #SelfImprovement #ArtAppreciation
