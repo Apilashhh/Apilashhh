@@ -23,12 +23,19 @@ I am in my final year of a Bachelor's degree in Economics and Management with a 
     <a href="https://www.python.org/" target="_blank" rel="noreferrer">
         <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" />
     </a>
+    <!-- Add more skills -->
 </p>
 
 ### Socials
 <p align="left">
     <a href="https://www.github.com/Apilashhh" target="_blank" rel="noreferrer">
         <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" />
+    </a>
+    <a href="https://www.linkedin.com/in/apilash-balasureshwaran-3b659b1b2/" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" />
+    </a>
+    <a href="https://www.youtube.com/@ApilashTV" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg" width="32" height="32" />
     </a>
     <!-- Add other social media links here -->
 </p>
