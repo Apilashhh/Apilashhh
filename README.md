@@ -2,7 +2,7 @@
 ![nightlife](https://github.com/Apilashhh/Apilashhh/assets/154760968/92e6d79a-fbfe-4ea3-a813-8206eea75342)
 
 Hi Everyone ! 👋 
-My name is Apilash Balasureshwaran, an aspiring Financial Professional with a deep passion for Finance and Technology.
+My name is _Apilash Balasureshwaran_, an aspiring Financial Professional with a deep passion for Finance and Technology.
 
 ## About Me
 I am in my final year of a Bachelor's degree in Economics and Management with a specialization in Finance. I have a profound interest in finance, coding, sports, gaming, self-improvement books, and art. This GitHub repository reflects the diverse projects I undertake, showcasing my varied interests. It's a platform for sharing passions, narrating my academic and extracurricular journey, and potentially inspiring others. Join me on this adventure exploring academia, hobbies, and personal growth. 📚💻⚽🎨 #FinancePassion #CodingEnthusiast #SportsLover #SelfImprovement #ArtAppreciation
