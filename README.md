@@ -51,5 +51,3 @@ I am in my final year of a Bachelor's degree in Economics and Management with a 
     <img src="https://github-readme-stats.vercel.app/api?username=Apilashhh&show_icons=true&hide=issues,&title_color=6366f1&text_color=ffffff&icon_color=6366f1&bg_color=000000&hide_border=true&show_icons=true" alt="Apilashhh's GitHub stats" />
 </a>
 
-Let's connect ! 
-<img data-target="animated-image.replacedImage" alt="68747470733a2f2f656d6f6a69732e736c61636b6d6f6a69732e636f6d2f656d6f6a69732f696d616765732f313533363335313037352f343539342f626c6f622d776176652e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/496f127aa037a98702e9c1ba73bf514a8336dd1a6b480c020c512ae3d747b58c/68747470733a2f2f656d6f6a69732e736c61636b6d6f6a69732e636f6d2f656d6f6a69732f696d616765732f313533363335313037352f343539342f626c6f622d776176652e676966" style="display: block; opacity: 1;">
