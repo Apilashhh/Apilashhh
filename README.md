@@ -1,4 +1,6 @@
-# Hi! 👋
+# Hi! 👋![Finance Bros !]([https://media.giphy.com/media/7kn27lnYSAE9O/giphy.gif](https://images.squarespace-cdn.com/content/v1/5c4ece0e3917ee277d32eaf3/1570273144470-81IYS54BBS2A2309YBY5/nightlife.gif?format=750w))
+
+
 ![Profile](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)
 
 My name is Apilash Balasureshwaran, an aspiring Financial Professional with a deep passion for Finance and Technology.
