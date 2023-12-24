@@ -2,7 +2,8 @@
 ![nightlife](https://github.com/Apilashhh/Apilashhh/assets/154760968/92e6d79a-fbfe-4ea3-a813-8206eea75342)
 
 Hi Everyone ! 
-<img data-target="animated-image.replacedImage" alt="68747470733a2f2f656d6f6a69732e736c61636b6d6f6a69732e636f6d2f656d6f6a69732f696d616765732f313533363335313037352f343539342f626c6f622d776176652e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/496f127aa037a98702e9c1ba73bf514a8336dd1a6b480c020c512ae3d747b58c/68747470733a2f2f656d6f6a69732e736c61636b6d6f6a69732e636f6d2f656d6f6a69732f696d616765732f313533363335313037352f343539342f626c6f622d776176652e676966" width="50" height="50" style="display: block; opacity: 1;"> 
+<img data-target="animated-image.replacedImage" alt="68747470733a2f2f656d6f6a69732e736c61636b6d6f6a69732e636f6d2f656d6f6a69732f696d616765732f313533363335313037352f343539342f626c6f622d776176652e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/496f127aa037a98702e9c1ba73bf514a8336dd1a6b480c020c512ae3d747b58c/68747470733a2f2f656d6f6a69732e736c61636b6d6f6a69732e636f6d2f656d6f6a69732f696d616765732f313533363335313037352f343539342f626c6f622d776176652e676966" width="50" height="50" style="display: block; opacity: 1;">
+
 My name is _Apilash Balasureshwaran_,an aspiring Financial Professional with a deep passion for Finance and Technology.
 
 
