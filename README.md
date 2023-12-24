@@ -5,7 +5,8 @@ Hi Everyone ! 👋
 My name is Apilash Balasureshwaran, an aspiring Financial Professional with a deep passion for Finance and Technology.
 
 ## About Me
-I am in my final year of a Bachelor's degree in Economics and Management with a specialization in Finance. I have a profound interest in finance, coding, sports, gaming, self-improvement books, and art. This GitHub repository reflects the diverse projects I undertake, showcasing my varied interests. It's a platform for sharing passions, narrating my academic and extracurricular journey, and potentially inspiring others. Join me on this adventure exploring academia, hobbies, and personal growth. 📚💻⚽🎨 #FinancePassion #CodingEnthusiast #SportsLover #SelfImprovement #ArtAppreciation![reaching-for-the-stars]
+I am in my final year of a Bachelor's degree in Economics and Management with a specialization in Finance. I have a profound interest in finance, coding, sports, gaming, self-improvement books, and art. This GitHub repository reflects the diverse projects I undertake, showcasing my varied interests. It's a platform for sharing passions, narrating my academic and extracurricular journey, and potentially inspiring others. Join me on this adventure exploring academia, hobbies, and personal growth. 📚💻⚽🎨 #FinancePassion #CodingEnthusiast #SportsLover #SelfImprovement #ArtAppreciation![reaching-for-the-stars]![homme-est-assis-table-devant-fenetre-train-lire-livre_900396-15900](https://github.com/Apilashhh/Apilashhh/assets/154760968/07d13bf6-4618-400b-8ad6-99ce9d374353)
+
 
 
 ## Contact Information
