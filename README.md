@@ -1,54 +1,5 @@
-
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Alignement d'images</title>
-  <style>
-    .container {
-      display: flex;
-      align-items: flex-start;
-    }
-
-    .superpose {
-      position: relative;
-      width: 250px;
-      height: 250px;
-    }
-
-    .superpose img {
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-  </style>
-</head>
-<body>
-
-  <div class="container">
-    <!-- GIF à gauche -->
-    <img src="https://github.com/Apilashhh/Apilashhh/assets/154760968/92e6d79a-fbfe-4ea3-a813-8206eea75342"
-         alt="nightlife"
-         width="250"
-         height="250" />
-
-    <!-- Images superposées à droite -->
-    <div class="superpose">
-      <img src="https://github.com/user-attachments/assets/55578605-11a0-4d55-b135-468d50c13b49"
-           alt="IMG_9250"
-           width="250"
-           height="250" />
-
-      <img src="https://github.com/user-attachments/assets/5cd71fda-4300-47bc-9dc1-499b3d63de3c"
-           alt="IMG_9249"
-           width="250"
-           height="250" />
-    </div>
-  </div>
-
-</body>
-</html>
-
+![292690691-92e6d79a-fbfe-4ea3-a813-8206eea75342](https://github.com/user-attachments/assets/3c7461e3-774e-42f5-9398-00cfd5d3b4ac)
+![IMG_06-ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/a3cab838-f732-42c3-9365-2557bf271ced)
 
 
 
