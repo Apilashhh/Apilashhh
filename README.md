@@ -9,8 +9,18 @@ My name is _Apilash Balasureshwaran_, an aspiring Financial Professional with a 
 
 
 ## About Me
-I am in my final year of a Bachelor's degree in Economics and Management with a specialization in Finance.I have a profound interest in finance, coding, sports, gaming, self-improvement books, and art. 
-This GitHub repository reflects the diverse projects I undertake, showcasing my varied interests. It's a platform for sharing passions, narrating my academic and extracurricular journey, and potentially inspiring others. Join me on this adventure exploring academia, hobbies, and personal growth.📚💻⚽🎨 #FinancePassion #CodingEnthusiast #SportsLover #SelfImprovement #ArtAppreciation
+Welcome to my GitHub!
+
+🎓 I recently graduated with a Bachelor's degree in Economics and Management, specializing in Finance, from Paris II Panthéon-Assas University — one of France’s most prestigious institutions. I'm now pursuing a Master's in Political and Economic Analysis at Université Paris Cité, a program rooted in critical thinking, sustainability, and policy innovation.
+
+💡 I’m passionate about connecting ideas across disciplines — from finance and public affairs to coding, behavioral science, sports, and art. This space is a reflection of my curiosity and the journey I’m building: academically, professionally, and personally.
+
+💼 Whether it's translating economic models into actionable insights, exploring data through code, or simply expressing creativity through side projects, I believe in learning by doing — and sharing that process openly.
+
+📚 You’ll find here a blend of finance-inspired tools, Python notebooks, public policy insights, and creative explorations. My goal is to craft work that’s both rigorous and meaningful — and maybe even inspire someone along the way.
+
+Let's connect ideas, people, and projects 🌍💻📈
+📚💻⚽🎨 #FinancePassion #CodingEnthusiast #SportsLover #SelfImprovement #ArtAppreciation  #AssasGraduate #EconomicsAndPolicy #CodingWithPurpose #FinanceInMotion #LifelongLearner #PublicAffairs #CuriosityDriven
 
 
 
