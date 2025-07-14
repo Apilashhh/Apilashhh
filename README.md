@@ -4,7 +4,7 @@
 Hi Everyone ! 
 
 
-My name is _Apilash Balasureshwaran_, an aspiring Financial Professional with a deep passion for Finance and Technology.
+My name is _Apilash B. Maharajah_, an aspiring Financial Professional in Market Access, Public Affairs,  with a deep passion for Finance and Technology and ESG.
 
 
 
