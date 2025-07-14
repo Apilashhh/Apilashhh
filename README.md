@@ -1,23 +1,54 @@
 
-<div style="display: flex; align-items: flex-start;">
-  <!-- GIF à gauche -->
-  <div style="flex-shrink: 0;">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Alignement d'images</title>
+  <style>
+    .container {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .superpose {
+      position: relative;
+      width: 250px;
+      height: 250px;
+    }
+
+    .superpose img {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- GIF à gauche -->
     <img src="https://github.com/Apilashhh/Apilashhh/assets/154760968/92e6d79a-fbfe-4ea3-a813-8206eea75342"
          alt="nightlife"
-         width="500" height="500" />
+         width="250"
+         height="250" />
+
+    <!-- Images superposées à droite -->
+    <div class="superpose">
+      <img src="https://github.com/user-attachments/assets/55578605-11a0-4d55-b135-468d50c13b49"
+           alt="IMG_9250"
+           width="250"
+           height="250" />
+
+      <img src="https://github.com/user-attachments/assets/5cd71fda-4300-47bc-9dc1-499b3d63de3c"
+           alt="IMG_9249"
+           width="250"
+           height="250" />
+    </div>
   </div>
 
-  <!-- Images superposées à droite -->
-  <div style="position: relative; width: 500px; height: 500px; flex-shrink: 0;">
-    <img width="500" height="500" alt="IMG_9250"
-      src="https://github.com/user-attachments/assets/55578605-11a0-4d55-b135-468d50c13b49"
-      style="position: absolute; top: 0; left: 0;" />
-    
-    <img width="500" height="500" alt="IMG_9249"
-      src="https://github.com/user-attachments/assets/5cd71fda-4300-47bc-9dc1-499b3d63de3c"
-      style="position: absolute; top: 0; left: 0;" />
-  </div>
-</div>
+</body>
+</html>
+
 
 
 
