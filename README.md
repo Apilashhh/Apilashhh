@@ -2,12 +2,12 @@
 ![nightlife](https://github.com/Apilashhh/Apilashhh/assets/154760968/92e6d79a-fbfe-4ea3-a813-8206eea75342)
 
 
- <div style="position: relative; width: 250px; float: right;">
-  <img width="250" height="250" alt="IMG_9250"
+ <div style="position: relative; width: 500px; float: right;">
+  <img width="500" height="500" alt="IMG_9250"
     src="https://github.com/user-attachments/assets/55578605-11a0-4d55-b135-468d50c13b49"
     style="position: absolute; top: 0; left: 0;" />
     
-  <img width="250" height="250" alt="IMG_9249"
+  <img width="500" height="500" alt="IMG_9249"
     src="https://github.com/user-attachments/assets/5cd71fda-4300-47bc-9dc1-499b3d63de3c"
     style="position: absolute; top: 0; left: 0;" />
 </div>
