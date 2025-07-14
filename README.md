@@ -16,7 +16,7 @@ This GitHub repository reflects the diverse projects I undertake, showcasing my 
 
 ## Contact Information
 - 🌍 Based in Paris
-- ✉️ Contact me at [apilash.771@gmail.com](mailto:apilash.771@gmail.com)
+- ✉️ Contact me on Linkedin 
 - 🚀 Currently working on [Financial Insights Chronicle](http://https://sites.google.com/view/financialinsightschronicle)
 - 🧠 Learning Python, Financial Modeling.
 - 🤝 Open to collaborating on Financial Startups, Banking job offers, or Projects that hold potential and captivate my interest.
