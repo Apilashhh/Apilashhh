@@ -1,10 +1,14 @@
 
-<div style="display: flex; align-items: flex-start; justify-content: space-between;">
+<div style="display: flex; align-items: flex-start;">
   <!-- GIF à gauche -->
-  <img src="https://github.com/Apilashhh/Apilashhh/assets/154760968/92e6d79a-fbfe-4ea3-a813-8206eea75342" alt="nightlife" width="500" height="500" />
+  <div style="flex-shrink: 0;">
+    <img src="https://github.com/Apilashhh/Apilashhh/assets/154760968/92e6d79a-fbfe-4ea3-a813-8206eea75342"
+         alt="nightlife"
+         width="500" height="500" />
+  </div>
 
   <!-- Images superposées à droite -->
-  <div style="position: relative; width: 500px; height: 500px;">
+  <div style="position: relative; width: 500px; height: 500px; flex-shrink: 0;">
     <img width="500" height="500" alt="IMG_9250"
       src="https://github.com/user-attachments/assets/55578605-11a0-4d55-b135-468d50c13b49"
       style="position: absolute; top: 0; left: 0;" />
@@ -14,6 +18,7 @@
       style="position: absolute; top: 0; left: 0;" />
   </div>
 </div>
+
 
 
 Hi Everyone ! 
