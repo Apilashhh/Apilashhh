@@ -2,12 +2,12 @@
 export const websiteConfig = {
   // Personal Information
   personal: {
-    name: "Your Name",
+    name: "Apilash B.Maharajah",
     greeting: "hi, [name]", // [name] will be replaced with personal.name
-    tagline: "I create stuff sometimes.",
-    profession: "Software Engineer",
-    location: "Your City, Country",
-    bio: "I'm a software engineer from Your City, Country. I'm fascinated by large-scale, high-impact products and contributed to major feature launches in industry-leading services as well as apps that have 100M+ installs."
+    tagline: "I see finance as a tool for innovation.",
+    profession: "Aspiring Finance Professional",
+    location: "Paris, France",
+    bio: "💼 Aspiring Finance Professional with Entrepreneurial Spirit. With a passion for investment banking, I am excited to delve into the fast-paced world of finance where strategic thinking and analytical skills are paramount."
   },
 
   // Navigation Menu Items
