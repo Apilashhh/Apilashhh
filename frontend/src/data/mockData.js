@@ -29,20 +29,23 @@ export const websiteConfig = {
   // About Section
   about: {
     title: "/ about me",
-    content: "I am currently a Software Development Engineer at **Your Company**, working in the **Your Team** sector under team **Your Team Name**. At the same time, I am undertaking a part-time Master's of Science in Software Engineering at **Your University**.",
-    profileImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+    content: "Hi, I'm Apilash, currently pursuing a degree in **Finance**. With a passion for **investment banking**, I am excited to delve into the fast-paced world of finance where strategic thinking and analytical skills are paramount. Alongside my academic journey, I am deeply invested in **entrepreneurship**, **business development**, **sports**, and **music**—all of which have enriched my leadership abilities and shaped my innovative mindset. 📊 I believe finance is not just about numbers but about creating opportunities and driving growth. Whether it's building businesses or fostering creativity through sports and music, my goal is to merge my diverse passions into a thriving career in finance.",
+    additionalInfo: "**M.Sc. in Economic Policy** – Business, Society & Sustainability Track | **B.Sc. Finance & Maths Graduate**, major in Finance | **'Financial Insights Chronicle' Founder-Author** | **HEC Business Game Participant 2025'**",
+    profileImage: "https://customer-assets.emergentagent.com/job_personal-portfolio-12/artifacts/v3l8dkh0_027-61f939d6b3-LTE-15523.jfif",
     technologies: {
-      title: "Here are some technologies I have been working with:",
+      title: "Here are some technologies and tools I have been working with:",
       list: [
-        { name: "TypeScript", category: "frontend" },
-        { name: "Python", category: "backend" },
-        { name: "React.js", category: "frontend" },
-        { name: "Java", category: "backend" },
-        { name: "JavaScript ES6+", category: "frontend" },
-        { name: "C#", category: "backend" }
+        { name: "Bloomberg Terminal", category: "finance" },
+        { name: "Excel VBA + Macros", category: "finance" },
+        { name: "Microsoft Office", category: "finance" },
+        { name: "Python", category: "programming" },
+        { name: "Stata", category: "programming" },
+        { name: "SQL", category: "programming" },
+        { name: "CSS", category: "programming" },
+        { name: "C++", category: "programming" }
       ]
     },
-    interests: "Outside of work, I'm interested in following the developments of science. I also play a lot of video games. And make TikToks."
+    interests: "💡 'I see finance as a tool for innovation, and I'm committed to using it to turn challenges into opportunities and ideas into impact.' Outside of finance, I'm passionate about sports (Crossfit/Weight-Lifting State Champion), music, and multilingual communication (fluent in French, English, Tamil, Spanish, Italian)."
   },
 
   // Experience Section
