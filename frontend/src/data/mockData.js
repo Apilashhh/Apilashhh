@@ -54,31 +54,60 @@ export const websiteConfig = {
     jobs: [
       {
         id: 1,
-        title: "Software Development Engineer",
-        company: "Your Company",
-        location: "Your City, Country",
-        duration: "2023 - Present",
-        description: "Working on large-scale distributed systems and contributing to products with millions of users.",
+        title: "International Undergraduate Research Assistant",
+        company: "The Wharton School (University of Pennsylvania)",
+        location: "Philadelphia, U.S (Remote)",
+        duration: "Feb 2024 - Present",
+        description: "Working on 'Green Bond Subnational Debt Market' research under Prof. Daniel G. Garrett at Jacobs Levy Equity Management Center for Quantitative Financial Research.",
         highlights: [
-          "Led development of key features serving 10M+ users",
-          "Improved system performance by 40%",
-          "Mentored junior developers"
+          "Conducted comprehensive market analysis using quantitative methods",
+          "Utilized advanced financial software and tools for data modeling",
+          "Contributed to groundbreaking research in sustainable finance"
         ],
-        technologies: ["TypeScript", "React", "Node.js", "AWS"]
+        technologies: ["Bloomberg Terminal", "Stata", "Python", "Excel VBA"]
       },
       {
         id: 2,
-        title: "Software Engineer Intern",
-        company: "Previous Company",
-        location: "Previous City, Country",
-        duration: "2022 - 2023",
-        description: "Developed and maintained web applications using modern technologies.",
+        title: "Investment Banking Analyst Intern",
+        company: "Finlatics",
+        location: "Mumbai, India",
+        duration: "June 2023 - August 2023",
+        description: "Created complex financial models and evaluated investment opportunities in startup ecosystem.",
         highlights: [
-          "Built responsive web applications",
-          "Collaborated with cross-functional teams",
-          "Implemented automated testing"
+          "Built financial models to forecast performance with 5-year projections",
+          "Analyzed seed and crisis financing for high-potential startups",
+          "Developed fundraising, pitching, and negotiation expertise",
+          "Analyzed financial statements to discern lucrative investment prospects"
         ],
-        technologies: ["JavaScript", "Python", "Django", "PostgreSQL"]
+        technologies: ["Excel", "Financial Modeling", "Bloomberg", "Stata"]
+      },
+      {
+        id: 3,
+        title: "Investment Banking Analyst Intern",
+        company: "City Investment Training",
+        location: "London, UK",
+        duration: "Jan 2023 - Feb 2023",
+        description: "Intensive training program with former Investment Bankers from Barclays and Goldman Sachs.",
+        highlights: [
+          "Led Venture Capital/Private Equity/M&A negotiations based on Harvard and LBS case studies",
+          "Implemented accounting for investment banking with detailed financial models",
+          "Built comprehensive 5-year financial projections"
+        ],
+        technologies: ["Excel", "Financial Modeling", "Bloomberg Terminal"]
+      },
+      {
+        id: 4,
+        title: "Vacation Assistant",
+        company: "BNP Paribas",
+        location: "Paris, France",
+        duration: "Jan 2023 - Feb 2023",
+        description: "Administrative and operational support in banking environment.",
+        highlights: [
+          "Planned and organized Excel files for financial reporting",
+          "Conducted check remittances and coordinated online platforms",
+          "Gained hands-on experience in banking operations"
+        ],
+        technologies: ["Excel", "Microsoft Office", "Banking Systems"]
       }
     ]
   },
