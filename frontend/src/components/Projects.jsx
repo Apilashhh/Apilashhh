@@ -59,9 +59,16 @@ const Projects = () => {
 
                 {/* Project Content */}
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-slate-100 mb-3 group-hover:text-emerald-400 transition-colors duration-200">
-                    {project.title}
-                  </h3>
+                  <div className="flex justify-between items-start mb-3">
+                    <h3 className="text-xl font-semibold text-slate-100 group-hover:text-emerald-400 transition-colors duration-200">
+                      {project.title}
+                    </h3>
+                    {project.duration && (
+                      <span className="text-xs text-slate-500 bg-slate-700/50 px-2 py-1 rounded-full">
+                        {project.duration}
+                      </span>
+                    )}
+                  </div>
                   
                   <p className="text-slate-400 leading-relaxed mb-4">
                     {project.description}
