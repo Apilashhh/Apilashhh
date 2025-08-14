@@ -174,12 +174,13 @@ const TreeIcon = () => {
 
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
+  
+  const greeting = getProcessedGreeting();
+  const { displayText: typedGreeting, isComplete: typingComplete } = useTypewriter(greeting, 80);
 
   useEffect(() => {
     setIsVisible(true);
   }, []);
-
-  const greeting = getProcessedGreeting();
 
   return (
     <section id="home" className="min-h-screen bg-slate-900 flex items-center justify-center relative overflow-hidden">
@@ -199,29 +200,30 @@ const Hero = () => {
           <TreeIcon />
         </div>
 
-        {/* Main Greeting */}
+        {/* Main Greeting with Typing Animation */}
         <div className={`transition-all duration-1000 delay-300 transform ${
           isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
         }`}>
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-light text-slate-100 mb-6 leading-tight">
-            {greeting.split(' ').map((word, index) => {
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-light text-slate-100 mb-6 leading-tight min-h-[1.2em]">
+            {typedGreeting.split(' ').map((word, index) => {
               // Highlight the name part in green
-              const isName = word.includes(websiteConfig.personal.name.split(' ')[0].toLowerCase());
+              const isName = word.toLowerCase().includes('apilash');
               return (
                 <span 
                   key={index}
                   className={isName ? 'text-emerald-400' : ''}
                 >
-                  {word}{index < greeting.split(' ').length - 1 ? ' ' : ''}
+                  {word}{index < typedGreeting.split(' ').length - 1 ? ' ' : ''}
                 </span>
               );
             })}
+            {!typingComplete && <span className="animate-pulse text-emerald-400">|</span>}
           </h1>
         </div>
 
         {/* Tagline */}
         <div className={`transition-all duration-1000 delay-500 transform ${
-          isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
+          typingComplete ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
         }`}>
           <p className="text-xl sm:text-2xl text-slate-400 font-light max-w-2xl mx-auto leading-relaxed">
             {websiteConfig.personal.tagline}
@@ -230,7 +232,7 @@ const Hero = () => {
 
         {/* Bio */}
         <div className={`transition-all duration-1000 delay-700 transform ${
-          isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
+          typingComplete ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
         }`}>
           <p className="text-lg text-slate-500 font-light max-w-3xl mx-auto leading-relaxed mt-8">
             {websiteConfig.personal.bio}
@@ -239,7 +241,7 @@ const Hero = () => {
 
         {/* Scroll indicator */}
         <div className={`absolute bottom-8 left-1/2 transform -translate-x-1/2 transition-all duration-1000 delay-1000 ${
-          isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
+          typingComplete ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
         }`}>
           <div className="flex flex-col items-center">
             <div className="w-6 h-10 border-2 border-slate-600 rounded-full flex justify-center">
