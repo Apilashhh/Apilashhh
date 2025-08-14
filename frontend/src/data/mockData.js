@@ -146,7 +146,8 @@ export const websiteConfig = {
         demoUrl: "#",
         githubUrl: "#",
         featured: true,
-        duration: "October 2014 - Present"
+        duration: "October 2014 - Present",
+        icon: "Video" // This will be used to show a video camera icon
       }
     ]
   },
