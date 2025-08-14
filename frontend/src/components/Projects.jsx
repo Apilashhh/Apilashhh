@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink, Github, Video, Play } from 'lucide-react';
 import { websiteConfig } from '../data/mockData';
 
 const Projects = () => {
