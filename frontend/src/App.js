@@ -143,15 +143,16 @@ const CustomizationPanel = ({ isOpen, onClose }) => {
 function App() {
   const [showCustomization, setShowCustomization] = React.useState(false);
 
-  // Show customization panel on first load
+  // Show customization panel on first load (disabled for demo)
   useEffect(() => {
-    const hasSeenCustomization = localStorage.getItem('hasSeenCustomization');
-    if (!hasSeenCustomization) {
-      setTimeout(() => {
-        setShowCustomization(true);
-        localStorage.setItem('hasSeenCustomization', 'true');
-      }, 2000);
-    }
+    // Commented out to show clean portfolio
+    // const hasSeenCustomization = localStorage.getItem('hasSeenCustomization');
+    // if (!hasSeenCustomization) {
+    //   setTimeout(() => {
+    //     setShowCustomization(true);
+    //     localStorage.setItem('hasSeenCustomization', 'true');
+    //   }, 2000);
+    // }
   }, []);
 
   return (
