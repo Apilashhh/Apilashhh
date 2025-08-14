@@ -80,9 +80,10 @@ const About = () => {
               </p>
               
               <div className="grid sm:grid-cols-2 gap-6">
-                {/* Frontend Technologies */}
+                {/* Finance & Programming Technologies */}
                 <div className="space-y-3">
-                  {frontendTechs.map((tech, index) => (
+                  <h5 className="text-emerald-400 font-medium text-sm mb-3">Finance & Analytics</h5>
+                  {websiteConfig.about.technologies.list.filter(tech => tech.category === 'finance').map((tech, index) => (
                     <div key={index} className="flex items-center space-x-3 group">
                       <div className="w-2 h-2 bg-emerald-400 rounded-full group-hover:bg-emerald-300 transition-colors duration-200"></div>
                       <span className="text-slate-300 group-hover:text-slate-100 transition-colors duration-200">
@@ -92,9 +93,10 @@ const About = () => {
                   ))}
                 </div>
 
-                {/* Backend Technologies */}
+                {/* Programming Technologies */}
                 <div className="space-y-3">
-                  {backendTechs.map((tech, index) => (
+                  <h5 className="text-emerald-400 font-medium text-sm mb-3">Programming</h5>
+                  {websiteConfig.about.technologies.list.filter(tech => tech.category === 'programming').map((tech, index) => (
                     <div key={index} className="flex items-center space-x-3 group">
                       <div className="w-2 h-2 bg-emerald-400 rounded-full group-hover:bg-emerald-300 transition-colors duration-200"></div>
                       <span className="text-slate-300 group-hover:text-slate-100 transition-colors duration-200">
