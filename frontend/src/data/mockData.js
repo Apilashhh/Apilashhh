@@ -20,8 +20,7 @@ export const websiteConfig = {
 
   // Social Links
   social: [
-    { name: "Email", icon: "Mail", url: "mailto:your@email.com", active: true },
-    { name: "GitHub", icon: "Github", url: "https://github.com/yourusername", active: true },
+    { name: "GitHub", icon: "Github", url: "https://github.com/Apilashhh/Apilashhh", active: true },
     { name: "LinkedIn", icon: "Linkedin", url: "https://linkedin.com/in/yourusername", active: true },
     { name: "Twitter", icon: "Twitter", url: "https://twitter.com/yourusername", active: false }
   ],
