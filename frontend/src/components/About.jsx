@@ -59,9 +59,16 @@ const About = () => {
             <div className={`transition-all duration-1000 delay-200 transform ${
               isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
             }`}>
-              <p className="text-lg text-slate-400 leading-relaxed mb-8">
+              <p className="text-lg text-slate-400 leading-relaxed mb-6">
                 {renderHighlightedText(websiteConfig.about.content)}
               </p>
+              
+              {/* Additional Info */}
+              {websiteConfig.about.additionalInfo && (
+                <p className="text-lg text-slate-400 leading-relaxed mb-8 p-4 bg-slate-800/30 rounded-lg border border-slate-700/50">
+                  {renderHighlightedText(websiteConfig.about.additionalInfo)}
+                </p>
+              )}
             </div>
 
             {/* Technologies */}
