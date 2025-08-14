@@ -37,8 +37,8 @@ const About = () => {
     });
   };
 
-  const frontendTechs = websiteConfig.about.technologies.list.filter(tech => tech.category === 'frontend');
-  const backendTechs = websiteConfig.about.technologies.list.filter(tech => tech.category === 'backend');
+  const frontendTechs = websiteConfig.about.technologies.list.filter(tech => tech.category === 'finance');
+  const backendTechs = websiteConfig.about.technologies.list.filter(tech => tech.category === 'programming');
 
   return (
     <section id="about" ref={sectionRef} className="py-20 bg-slate-900">
