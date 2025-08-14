@@ -24,60 +24,153 @@ const useTypewriter = (text, speed = 100) => {
   return { displayText, isComplete };
 };
 
-const TreeIcon = () => (
-  <svg 
-    width="120" 
-    height="120" 
-    viewBox="0 0 120 120" 
-    fill="none" 
-    xmlns="http://www.w3.org/2000/svg"
-    className="opacity-80"
-  >
-    {/* Tree branches - fractal pattern */}
-    <g stroke="currentColor" strokeWidth="1.5" fill="none">
-      {/* Main trunk */}
-      <line x1="60" y1="120" x2="60" y2="80" />
+const TreeIcon = () => {
+  const [isAnimated, setIsAnimated] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setIsAnimated(true), 500);
+    return () => clearTimeout(timer);
+  }, []);
+
+  return (
+    <svg 
+      width="120" 
+      height="120" 
+      viewBox="0 0 120 120" 
+      fill="none" 
+      xmlns="http://www.w3.org/2000/svg"
+      className={`opacity-80 transition-all duration-2000 ${isAnimated ? 'scale-100 rotate-0' : 'scale-75 rotate-12'}`}
+    >
+      {/* Tree branches - fractal pattern with animation */}
+      <g stroke="currentColor" strokeWidth="1.5" fill="none">
+        {/* Main trunk */}
+        <line 
+          x1="60" y1="120" x2="60" y2="80" 
+          className={`transition-all duration-1000 ${isAnimated ? 'opacity-100' : 'opacity-0'}`}
+          style={{ transitionDelay: '0ms' }}
+        />
+        
+        {/* Main branches */}
+        <line 
+          x1="60" y1="80" x2="45" y2="65" 
+          className={`transition-all duration-1000 ${isAnimated ? 'opacity-100' : 'opacity-0'}`}
+          style={{ transitionDelay: '200ms' }}
+        />
+        <line 
+          x1="60" y1="80" x2="75" y2="65" 
+          className={`transition-all duration-1000 ${isAnimated ? 'opacity-100' : 'opacity-0'}`}
+          style={{ transitionDelay: '200ms' }}
+        />
+        
+        {/* Secondary branches */}
+        <line 
+          x1="45" y1="65" x2="35" y2="50" 
+          className={`transition-all duration-1000 ${isAnimated ? 'opacity-100' : 'opacity-0'}`}
+          style={{ transitionDelay: '400ms' }}
+        />
+        <line 
+          x1="45" y1="65" x2="50" y2="50" 
+          className={`transition-all duration-1000 ${isAnimated ? 'opacity-100' : 'opacity-0'}`}
+          style={{ transitionDelay: '400ms' }}
+        />
+        <line 
+          x1="75" y1="65" x2="70" y2="50" 
+          className={`transition-all duration-1000 ${isAnimated ? 'opacity-100' : 'opacity-0'}`}
+          style={{ transitionDelay: '400ms' }}
+        />
+        <line 
+          x1="75" y1="65" x2="85" y2="50" 
+          className={`transition-all duration-1000 ${isAnimated ? 'opacity-100' : 'opacity-0'}`}
+          style={{ transitionDelay: '400ms' }}
+        />
+        
+        {/* Tertiary branches */}
+        <line 
+          x1="35" y1="50" x2="25" y2="35" 
+          className={`transition-all duration-1000 ${isAnimated ? 'opacity-100' : 'opacity-0'}`}
+          style={{ transitionDelay: '600ms' }}
+        />
+        <line 
+          x1="35" y1="50" x2="40" y2="35" 
+          className={`transition-all duration-1000 ${isAnimated ? 'opacity-100' : 'opacity-0'}`}
+          style={{ transitionDelay: '600ms' }}
+        />
+        <line 
+          x1="50" y1="50" x2="45" y2="35" 
+          className={`transition-all duration-1000 ${isAnimated ? 'opacity-100' : 'opacity-0'}`}
+          style={{ transitionDelay: '600ms' }}
+        />
+        <line 
+          x1="50" y1="50" x2="55" y2="35" 
+          className={`transition-all duration-1000 ${isAnimated ? 'opacity-100' : 'opacity-0'}`}
+          style={{ transitionDelay: '600ms' }}
+        />
+        <line 
+          x1="70" y1="50" x2="65" y2="35" 
+          className={`transition-all duration-1000 ${isAnimated ? 'opacity-100' : 'opacity-0'}`}
+          style={{ transitionDelay: '600ms' }}
+        />
+        <line 
+          x1="70" y1="50" x2="75" y2="35" 
+          className={`transition-all duration-1000 ${isAnimated ? 'opacity-100' : 'opacity-0'}`}
+          style={{ transitionDelay: '600ms' }}
+        />
+        <line 
+          x1="85" y1="50" x2="80" y2="35" 
+          className={`transition-all duration-1000 ${isAnimated ? 'opacity-100' : 'opacity-0'}`}
+          style={{ transitionDelay: '600ms' }}
+        />
+        <line 
+          x1="85" y1="50" x2="95" y2="35" 
+          className={`transition-all duration-1000 ${isAnimated ? 'opacity-100' : 'opacity-0'}`}
+          style={{ transitionDelay: '600ms' }}
+        />
+      </g>
       
-      {/* Main branches */}
-      <line x1="60" y1="80" x2="45" y2="65" />
-      <line x1="60" y1="80" x2="75" y2="65" />
-      
-      {/* Secondary branches */}
-      <line x1="45" y1="65" x2="35" y2="50" />
-      <line x1="45" y1="65" x2="50" y2="50" />
-      <line x1="75" y1="65" x2="70" y2="50" />
-      <line x1="75" y1="65" x2="85" y2="50" />
-      
-      {/* Tertiary branches */}
-      <line x1="35" y1="50" x2="25" y2="35" />
-      <line x1="35" y1="50" x2="40" y2="35" />
-      <line x1="50" y1="50" x2="45" y2="35" />
-      <line x1="50" y1="50" x2="55" y2="35" />
-      <line x1="70" y1="50" x2="65" y2="35" />
-      <line x1="70" y1="50" x2="75" y2="35" />
-      <line x1="85" y1="50" x2="80" y2="35" />
-      <line x1="85" y1="50" x2="95" y2="35" />
-    </g>
-    
-    {/* Leaves as small circles */}
-    <g fill="currentColor">
-      <circle cx="25" cy="35" r="3" opacity="0.8" />
-      <circle cx="40" cy="35" r="3" opacity="0.8" />
-      <circle cx="45" cy="35" r="3" opacity="0.8" />
-      <circle cx="55" cy="35" r="3" opacity="0.8" />
-      <circle cx="65" cy="35" r="3" opacity="0.8" />
-      <circle cx="75" cy="35" r="3" opacity="0.8" />
-      <circle cx="80" cy="35" r="3" opacity="0.8" />
-      <circle cx="95" cy="35" r="3" opacity="0.8" />
-      
-      {/* Additional small leaves */}
-      <circle cx="30" cy="40" r="2" opacity="0.6" />
-      <circle cx="52" cy="42" r="2" opacity="0.6" />
-      <circle cx="68" cy="42" r="2" opacity="0.6" />
-      <circle cx="90" cy="40" r="2" opacity="0.6" />
-    </g>
-  </svg>
-);
+      {/* Leaves as small circles with staggered animation */}
+      <g fill="currentColor">
+        {[
+          { cx: "25", cy: "35", delay: "800ms" },
+          { cx: "40", cy: "35", delay: "850ms" },
+          { cx: "45", cy: "35", delay: "900ms" },
+          { cx: "55", cy: "35", delay: "950ms" },
+          { cx: "65", cy: "35", delay: "1000ms" },
+          { cx: "75", cy: "35", delay: "1050ms" },
+          { cx: "80", cy: "35", delay: "1100ms" },
+          { cx: "95", cy: "35", delay: "1150ms" }
+        ].map((leaf, index) => (
+          <circle 
+            key={index}
+            cx={leaf.cx} 
+            cy={leaf.cy} 
+            r="3" 
+            opacity="0.8"
+            className={`transition-all duration-500 ${isAnimated ? 'opacity-80 scale-100' : 'opacity-0 scale-0'}`}
+            style={{ transitionDelay: leaf.delay }}
+          />
+        ))}
+        
+        {/* Additional small leaves */}
+        {[
+          { cx: "30", cy: "40", delay: "1200ms" },
+          { cx: "52", cy: "42", delay: "1250ms" },
+          { cx: "68", cy: "42", delay: "1300ms" },
+          { cx: "90", cy: "40", delay: "1350ms" }
+        ].map((leaf, index) => (
+          <circle 
+            key={`small-${index}`}
+            cx={leaf.cx} 
+            cy={leaf.cy} 
+            r="2" 
+            opacity="0.6"
+            className={`transition-all duration-500 ${isAnimated ? 'opacity-60 scale-100' : 'opacity-0 scale-0'}`}
+            style={{ transitionDelay: leaf.delay }}
+          />
+        ))}
+      </g>
+    </svg>
+  );
+};
 
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
