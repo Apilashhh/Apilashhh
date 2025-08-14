@@ -55,6 +55,15 @@ const Projects = () => {
                     loading="lazy"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent"></div>
+                  
+                  {/* YouTube/Video Icon Overlay */}
+                  {project.icon === "Video" && (
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div className="bg-red-600 bg-opacity-90 rounded-full p-4 group-hover:scale-110 transition-transform duration-300">
+                        <Play size={32} className="text-white fill-white" />
+                      </div>
+                    </div>
+                  )}
                 </div>
 
                 {/* Project Content */}
