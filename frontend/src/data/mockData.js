@@ -118,23 +118,36 @@ export const websiteConfig = {
     featured: [
       {
         id: 1,
-        title: "Project One",
-        description: "A full-stack web application that helps users manage their daily tasks with advanced features.",
-        technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
-        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+        title: "Tradanova",
+        description: "Tradanova - Your Gamified Trading Playground 🎮📈. A risk-free trading simulation platform that turns learning about financial markets into a fun adventure! Create virtual portfolios, test trading strategies, and explore stocks without risking money. Features gamified experience and weekly finance podcasts.",
+        technologies: ["Python", "JavaScript", "Financial APIs", "React", "Database Management"],
+        image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&h=400&fit=crop",
         demoUrl: "#",
         githubUrl: "#",
-        featured: true
+        featured: true,
+        duration: "June 2024 - Present"
       },
       {
         id: 2,
-        title: "Project Two",
-        description: "A mobile-responsive portfolio website showcasing modern design principles and animations.",
-        technologies: ["React", "TypeScript", "Framer Motion", "Tailwind CSS"],
-        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
+        title: "Financial Insights Chronicle",
+        description: "The ultimate weekly newsletter designed, coded, and written by me! With over 300 subscribers and growing, we make finance easy, accessible, and insightful for everyone. Features in-depth market analysis, breaking financial news, and expert insights delivered weekly.",
+        technologies: ["Newsletter Platform", "Content Management", "Analytics", "Email Marketing"],
+        image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=600&h=400&fit=crop",
         demoUrl: "#",
         githubUrl: "#",
-        featured: true
+        featured: true,
+        duration: "May 2024 - Present"
+      },
+      {
+        id: 3,
+        title: "YouTube Channel - Finance Journey",
+        description: "Follow my journey as a finance student sharing the real-life hustle of balancing school, chasing opportunities, and pursuing dreams in the finance world. From study tips to personal growth, get an inside look at what it takes to aim high and make it happen!",
+        technologies: ["Video Production", "Content Creation", "Social Media", "Analytics"],
+        image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=400&fit=crop",
+        demoUrl: "#",
+        githubUrl: "#",
+        featured: true,
+        duration: "October 2014 - Present"
       }
     ]
   },
